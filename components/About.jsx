@@ -8,16 +8,20 @@ const TAB_DATA = [
     title: "Skills",
     id: "skills",
     content: (
-      <ul className="list-disc pl-2">
-        <li>Node.js</li>
-        <li>Express</li>
-        <li>MySQL</li>
-        <li>MongoDB</li>
-        <li>JavaScript</li>
-        <li>React.js</li>
-        <li>Next.js</li>
-        <li>C/C++</li>
-      </ul>
+      <div className="grid grid-cols-2">
+        <ul className="list-disc pl-2">
+          <li>Node.js</li>
+          <li>Express</li>
+          <li>MySQL</li>
+          <li>MongoDB</li>
+        </ul>
+        <ul className="list-disc pl-2">
+          <li>JavaScript</li>
+          <li>React.js</li>
+          <li>Next.js</li>
+          <li>C/C++</li>
+        </ul>
+      </div>
     ),
   },
   {
@@ -57,7 +61,12 @@ const About = () => {
   return (
     <section>
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image src="/assets/images/setup.jpg" height={500} width={500} />
+        <Image
+          src="/assets/images/setup.jpg"
+          alt="image of programming setup"
+          height={500}
+          width={500}
+        />
         <div>
           <h2 className="text-4xl font-bold text-white mt-4 mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
@@ -92,7 +101,7 @@ const About = () => {
               Certifications{" "}
             </TabButton>
           </div>
-          <div className="mt-8">
+          <div className="mt-4">
             {TAB_DATA.find((t) => t.id === tab).content}
           </div>
         </div>
