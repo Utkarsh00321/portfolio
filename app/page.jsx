@@ -2,6 +2,8 @@ import Herosection from "@components/Herosection";
 import Navbar from "@components/Navbar";
 import About from "@components/About";
 import ProjectSection from "@components/ProjectSection";
+import EmailSection from "@components/EmailSection";
+import Footer from "@components/Footer";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col bg-[#121212] ">
@@ -10,7 +12,9 @@ export default function Home() {
         <Herosection />
         <About />
         <ProjectSection />
+        <EmailSection />
       </div>
+      <Footer />
     </main>
   );
 }

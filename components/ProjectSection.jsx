@@ -33,7 +33,7 @@ const projectsData = [
 
 const ProjectSection = () => {
   return (
-    <>
+    <section id="projects">
       <h2 className="text-center font-bold text-4xl text-white mt-4 mb-8 md:mb-12">
         My Projects
       </h2>
@@ -47,7 +47,7 @@ const ProjectSection = () => {
           />
         ))}
       </div>
-    </>
+    </section>
   );
 };
 

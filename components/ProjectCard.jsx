@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const ProjectCard = ({ imgUrl, title, description }) => {
   return (
-    <div className="border border-slate-600 rounded-xl hover:shadow-xl transition-all duration-150 ease-in-out hover:scale-105">
+    <div className="border border-slate~-600 rounded-xl hover:shadow-xl transition-all duration-150 ease-in-out hover:scale-105">
       <div
         className="h-48 md:h-56 hover:mix-blend-overlay rounded-t-xl "
         style={{ background: `url(${imgUrl})`, backgroundSize: "cover" }}
