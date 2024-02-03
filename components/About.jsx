@@ -73,10 +73,9 @@ const About = () => {
             I am a Next.js Developer. Transforming ideas into captivating web
             experiences. I have experience in working with HTML, CSS,
             JavaScript, Node.js, Express.js, React.js, MongoDB, MySQL and C/C++.
-            A tech enthusiast with a knack for crafting sleek and scalable
-            applications. Passionate about staying ahead in tech trends. Excited
-            to infuse creativity and expertise into a team-driven environment
-            that values innovation and growth.
+            Passionate about staying ahead in tech trends. Excited to infuse
+            creativity and expertise into a team-driven environment that values
+            innovation and growth.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
