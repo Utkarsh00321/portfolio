@@ -70,7 +70,7 @@ const About = () => {
         <div>
           <h2 className="text-4xl font-bold text-white mt-4 mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I'm a Next.js Developer. Transforming ideas into captivating web
+            I am a Next.js Developer. Transforming ideas into captivating web
             experiences. I have experience in working with HTML, CSS,
             JavaScript, Node.js, Express.js, React.js, MongoDB, MySQL and C/C++.
             A tech enthusiast with a knack for crafting sleek and scalable
