@@ -3,6 +3,7 @@ import React from "react";
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const Herosection = () => {
   return (
@@ -38,12 +39,18 @@ const Herosection = () => {
             Versatile Next.js Developer. Transforming ideas into captivating web
             experiences.
           </p>
-          <button className="mr-4 w-full sm:w-fit px-4 py-2 bg-white text-white rounded-full bg-gradient-to-br from-[#fc8b72] via-[#fc0000] to-[#ac2124] hover:bg-slate-500 ">
+          <Link
+            href="/#contact"
+            className="mr-4 w-full sm:w-fit px-4 py-2 text-white  bg-gradient-to-br from-[#fc8b72] via-[#fc0000] to-[#ac2124] border border-white hover:bg-slate-500 "
+          >
             Hire Me
-          </button>
-          <button className="mt-4 w-full sm:w-fit px-4 py-2 bg-transparent rounded-full hover:bg-slate-800 text-white border border-white">
+          </Link>
+          <Link
+            href="/"
+            className="mt-4 w-full sm:w-fit px-4 py-2 bg-transparent  hover:bg-slate-800 text-white border border-white"
+          >
             Download CV
-          </button>
+          </Link>
         </motion.div>
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}

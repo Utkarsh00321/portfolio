@@ -89,7 +89,7 @@ const EmailSection = () => {
                 type="email"
                 id="email"
                 required
-                className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
+                className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm block w-full p-2.5"
                 placeholder="jacob@google.com"
               />
             </div>
@@ -105,7 +105,7 @@ const EmailSection = () => {
                 type="text"
                 id="subject"
                 required
-                className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
+                className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm  block w-full p-2.5"
                 placeholder="Just saying hi"
               />
             </div>
@@ -119,13 +119,13 @@ const EmailSection = () => {
               <textarea
                 name="message"
                 id="message"
-                className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
+                className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm block w-full p-2.5"
                 placeholder="Let's talk about..."
               />
             </div>
             <button
               type="submit"
-              className="bg-[#fc0000] hover:bg-[#960202] text-white font-medium py-2.5 px-5 rounded-lg w-full"
+              className="bg-[#fc0000] hover:bg-[#960202] text-white font-medium py-2.5 px-5 w-full border border-gray-300"
             >
               Send Message
             </button>

@@ -65,7 +65,7 @@ const About = () => {
         initial={{ opacity: 0, scale: 0.5 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.5 }}
-        className="md:grid md:grid-cols-2 gap-8 items-center py-10 px-4 xl:gap-16 sm:py-16 xl:px-16"
+        className="md:grid md:grid-cols-2 gap-8 items-center py-10 xl:gap-16 sm:py-16 xl:px-16"
       >
         <Image
           src="/assets/images/setup.jpg"
