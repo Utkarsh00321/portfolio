@@ -13,7 +13,7 @@ const projectsData = [
     image: "/assets/images/projects/project1.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/Utkarsh00321/portfolio",
-    previewUrl: "/",
+    previewUrl: "https://portfolio-utkarsh-kadam.vercel.app/",
   },
 
   {
@@ -24,8 +24,7 @@ const projectsData = [
     image: "/assets/images/projects/project3.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/Utkarsh00321/promptpedia",
-    previewUrl:
-      "https://promptpedia-mjpm61vl4-utkarsh-kadams-projects.vercel.app/",
+    previewUrl: "https://promptpedia-alpha.vercel.app/",
   },
   {
     id: 3,
@@ -35,8 +34,7 @@ const projectsData = [
     image: "/assets/images/projects/project2.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/Utkarsh00321/fundForge",
-    previewUrl:
-      "https://fund-forge-a2lnzuyjy-utkarsh-kadams-projects.vercel.app/",
+    previewUrl: "https://fund-forge.vercel.app/",
   },
 ];
 
