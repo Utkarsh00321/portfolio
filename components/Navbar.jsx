@@ -2,7 +2,6 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import NavLink from "./NavLink";
-import { Bars3Icon, XmarkIcon } from "@heroicons/react/24/solid";
 import HamBuger from "./Ham";
 import Xmark from "./Xmark";
 import MenuOverlay from "./MenuOverlay";
